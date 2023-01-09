@@ -1,2 +1,4 @@
 test file 
-added one line 
+removed line one 
+
+added line two 
