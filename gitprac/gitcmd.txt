@@ -2,3 +2,5 @@ test file
 removed line one 
 
 added line two 
+
+line three added 
