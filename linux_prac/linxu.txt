@@ -1,0 +1,4 @@
+************Linux************
+mkdir - to create the direcotry
+pwd - 
+ls
