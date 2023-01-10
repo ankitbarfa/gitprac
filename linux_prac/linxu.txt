@@ -10,3 +10,5 @@ git remote add origin https://github.com/ankitbarfa/gitprac.git
 test line added 
 two lines 
 
+mistake lines pushed 
+
