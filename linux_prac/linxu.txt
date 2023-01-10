@@ -4,4 +4,3 @@ pwd -
 ls
 $ git config --global user.name "ankitbarfa"
 $ git config --global user.email "ankit.barfa26@gmail.com"
-name added 
