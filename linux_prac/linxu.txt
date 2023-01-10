@@ -7,5 +7,5 @@ $ git config --global user.email "ankit.barfa26@gmail.com"
 
 git remote add origin https://github.com/ankitbarfa/gitprac.git
 
-check you windows credentails manager 
-changes  123
+
+
