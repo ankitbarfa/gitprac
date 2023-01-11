@@ -26,3 +26,19 @@ etc
 lib
 temp
 
+
+#tree
+
+    ---------------------------------------------Linux 3rd session khaja  
+    echo ~ tild reprent your home directory 
+    ---------------------------------------------Linux 4rd session khaja  
+    interesint command 
+#cltr+a
+    
+     which will take you to start of command 
+#cltr+k
+    whicl will cut the line 
+cltr+y
+    which will paste the data 
+         
+    
