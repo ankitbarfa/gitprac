@@ -2,13 +2,27 @@
 mkdir - to create the direcotry
 pwd - 
 ls
-$ git config --global user.name "ankitbarfa"
-$ git config --global user.email "ankit.barfa26@gmail.com"
+#CP
+    cp test1 test2
+#>>
+ping -c google.com >> test.txt 
 
-git remote add origin https://github.com/ankitbarfa/gitprac.git
+#rm -r 
 
-test line added 
-two lines 
+#rm -rf
 
-mistake lines pushed 
+Vi-editor's --->
+1. I insert 
+2. Esc for out of the insert 
+3. :q without save exit
+4. :wq save and exit 
+
+
+#mv test test2
+
+#Direcoris
+bin 
+etc
+lib
+temp
 
