@@ -1,0 +1,12 @@
+Powershelll commands 
+------------------------
+
+<Verb> <Noun>
+Verb can be - Get ,set , update......
+
+Ex: Get-Process
+
+--------------Basic Commands
+Refer here for the basic commands : 
+https://www.comparitech.com/net-admin/powershell-cheat-sheet/
+
