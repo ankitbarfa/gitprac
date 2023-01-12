@@ -10,3 +10,8 @@ Ex: Get-Process
 Refer here for the basic commands : 
 https://www.comparitech.com/net-admin/powershell-cheat-sheet/
 
+--------------------powershell aliases --------------------
+Get alise we are using for the getting full name :
+Get-aliases cp 
+result - copy item 
+
