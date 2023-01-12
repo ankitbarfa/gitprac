@@ -1,0 +1,28 @@
+----------------Powershell command------
+ps |where Name -Like 'Notepad' | kill
+
+#Test-Path -Path "D:\"
+Testpath commandfff
+
+Get-command Get-proccess -Online 
+
+Start-Process -FilePath "Notepad"
+
+variable two type :
+    1. custome
+    2 automatica variable 
+
+| Pipeline is the command to forward the output to the other command as input 
+
+Simple shell-script to check the server is running or not 
+
+'''
+$Servername = @('google.com','facebook.com','lindin')
+$IsServerUp =Test-Connection -ComputerName $Servername -quiet  -count 1 
+if ($IsServerUp -eq $true) {
+    Write-Output "$Servername is runnig"
+}else {
+    Write-Output "$Servername is down"
+}
+'''
+
