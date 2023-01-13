@@ -1,3 +1,15 @@
 ------------Azure server migration 
 
 1.create a virtual machine on the azure it should be procer 2 and 16B
+
+2. Configure the hyperv in the window hyper v machine 
+
+3 install the vagrant -
+choco vagrant install -y 
+    then install the vagrant init generic/ubuntu1804 machin on the hyperv 
+
+mkdir ubuntu 
+    vagrant init generic/ubuntu1804
+mkdir centos 
+    vagrant init generic/centos8
+    
