@@ -9,3 +9,23 @@ make inside your pasword authentication to yes
 
 
 ssh -i <path of pem file > username@ip add :- to connect remotely with the userr 
+
+ansible inverty file to check whether is able to connect to machine or not 
+
+vi inventory
+ansible -i inventory -m ping all 
+
+
+
+------------------28/12/2022
+install ansibl on the ubuntu machine 
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible -y
+ansible --version
+
+
+install ansibl on the centos machine 
+sudo yum install epel-release -y
+sudo yum install ansible -y
