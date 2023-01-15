@@ -3,7 +3,7 @@
    hosts: all 
    task: 
      name:  install openjdk-11-jdk
-      ansible.builtin.apt:
-      state : present
+     ansible.builtin.apt :
+     state : present
       
 
