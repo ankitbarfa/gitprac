@@ -40,5 +40,7 @@ temp
     whicl will cut the line 
 cltr+y
     which will paste the data 
-         
+# history | less 
+which will not show you the repeatative commands 
+     
     
