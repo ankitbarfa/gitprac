@@ -4,6 +4,6 @@
    tasks: 
     - name: install openjdk-11-jdk
       ansible.builtin.apt :
-      state : present
+        state : present
       
 
