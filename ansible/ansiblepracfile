@@ -29,3 +29,50 @@ ansible --version
 install ansibl on the centos machine 
 sudo yum install epel-release -y
 sudo yum install ansible -y
+
+
+-------------------31/12/2023
+
+Install the ansible on the single machine and call is Ansible control node
+# Hosts : then create a host file and mention all the machine IP inside it , we can call it as the inventory file 
+#Yaml : create a yaml file and consider it as the playbook , her mentioned your manual commands 
+
+command used setuping the ansible 
+    1  whoami
+    2  sudo visudo
+    3  exit
+    4  ls
+    5  ls ~/.ssh/
+    6  ssh-keygen
+    7  ssh-copy-id devops@20.102.87.211
+    8  ansible -i inventory -m ping all
+    9  ls
+   10  cat inv
+   11  cat inventory
+   12  vi inventory
+   13  cat inventory
+   14  ansible -i inventory -m ping all
+   15  ansible -i inventory -m ping all
+   16  vi inventory
+   17  ansible -i inventory -m ping all
+   18  ls
+   19  mkdir ansible_basix
+   20  cd ansible_basix/
+   21  ls
+   22  vi hosts
+   23  cat hosts
+   24  nano apinstall.yaml
+   25  cat apinstall.yaml
+   26  ansible --version
+   27  ansible-playbook -i hosts --syntax-check apinstall.yaml
+   28  nano apinstall.yaml
+   29  ansible-playbook -i hosts --syntax-check apinstall.yaml
+   30  nano apinstall.yaml
+   31  ansible-playbook -i hosts --syntax-check apinstall.yaml
+   32  nano apinstall.yaml
+   33  ansible-playbook -i hosts --syntax-check apinstall.yaml
+   34  vi apinstall.yaml
+   35  cat apinstall.yaml
+   36  ansible-playbook -i hosts --syntax-check apinstall.yaml
+   37  ansible-playbook -i hosts apinstall.yaml
+   38  history
