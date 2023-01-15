@@ -1,0 +1,11 @@
+Making the password authenticated user 
+
+sudo adduser jenkins 
+# sudo visudo file  : for the add the user and make it the password less user 
+
+
+sudo /etc/config/sshd_confi
+make inside your pasword authentication to yes 
+
+
+ssh -i <path of pem file > username@ip add :- to connect remotely with the userr 
