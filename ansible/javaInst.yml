@@ -2,8 +2,9 @@
    become : yes
    hosts: all 
    tasks: 
-    - name: install openjdk-11-jdk
+    - name: java installation
       ansible.builtin.apt :
+        name : install openjdk-11-jdk
         state : present
       
 
