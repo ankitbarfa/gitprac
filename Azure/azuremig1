@@ -6,7 +6,9 @@
 
 3 install the vagrant -
 choco vagrant install -y 
-    then install the vagrant init generic/ubuntu1804 machin on the hyperv 
+vagrant --version
+
+###then install the vagrant init generic/ubuntu1804 machin on the hyperv 
 
 mkdir ubuntu 
     vagrant init generic/ubuntu1804

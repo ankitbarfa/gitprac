@@ -1,10 +1,11 @@
 Making the password authenticated user 
 
-sudo adduser jenkins 
+#sudo adduser jenkins 
+
 # sudo visudo file  : for the add the user and make it the password less user 
 
 
-sudo /etc/config/sshd_confi
+sudo nano /etc/ssh/sshd_config
 make inside your pasword authentication to yes 
 
 
@@ -76,3 +77,10 @@ command used setuping the ansible
    36  ansible-playbook -i hosts --syntax-check apinstall.yaml
    37  ansible-playbook -i hosts apinstall.yaml
    38  history
+
+
+   --------------------TOmcate Installtion-----------------
+   Setup your account befor tomcat installation 
+
+   
+   
