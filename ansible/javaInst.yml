@@ -28,7 +28,7 @@
         src: /opt/tomcat/apache-tomcat-10.1.4
         dest: /opt/tomcat/latest
         state: link
-         - name: change permissions
+    - name: change permissions
       ansible.builtin.file:
         dest: /opt/tomcat
         recurse: true
