@@ -6,46 +6,4 @@
       ansible.builtin.apt :
         name : openjdk-11-jdk
         state : present
-    - name: create a tomcat group
-      ansible.builtin.group:
-        name: tomcat
-        state: present
-    - name: create a tomcat user
-      ansible.builtin.user:
-        name: tomcat
-        create_home: yes
-        group: tomcat
-        home: /opt/tomcat
-        shell: /bin/false
-        state: present
-    - name: extract tomcat 10.1.4
-      ansible.builtin.unarchive:
-        src: https://www-eu.apache.org/dist/tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4.tar.gz
-        remote_src: yes
-        dest: /opt/tomcat
-    - name: create a symbolic link
-      ansible.builtin.file:
-        src: /opt/tomcat/apache-tomcat-10.1.4
-        dest: /opt/tomcat/latest
-        state: link
-    - name: change permissions
-      ansible.builtin.file:
-        dest: /opt/tomcat
-        recurse: true
-        state: directory
-    - name: add execute permissions to shell files
-      ansible.builtin.command: sudo sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'
-    - name: Create a systemd unit file
-      ansible.builtin.copy:
-        src: tomcat.service
-        dest: /etc/systemd/system/tomcat.service
-        owner: tomcat
-        group: tomcat
-    - name: reload daemon and start tomcat
-      ansible.builtin.systemd:
-        name: tomcat.service
-        daemon_reload: yes
-        enabled: yes
-        state: started
-
-
+    
