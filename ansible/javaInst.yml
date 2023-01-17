@@ -18,3 +18,8 @@
         home : /opt/tomcat
         shell : /bin/false
         state : present 
+    - name : download tomcat
+      ansible.builtin.get_url : 
+        name : 
+        url : https://www-eu.apache.org/dist/tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4.tar.gz
+        dest : /tmp/apache-tomcat-10.1.4.tar.gz
