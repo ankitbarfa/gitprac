@@ -1,0 +1,9 @@
+-  name : install mysql on ubuntu 
+   hosts : all 
+   become : yes 
+   task : 
+    - name : Download mysql
+      ansible.builtin.get_url : 
+      url : https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+      dest : /tmp     
+
