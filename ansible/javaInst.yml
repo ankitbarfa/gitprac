@@ -20,6 +20,6 @@
         state : present 
     - name: download tomcat 9.0.35
       ansible.builtin.get_url:
-        url: https://www-eu.apache.org/dist/tomcat/tomcat-10/v9.0.35/bin/apache-tomcat-9.0.35.tar.gz
+        url: https://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35.tar.gz
         dest: /tmp/apache-tomcat-10.1.4.tar.gz
     
