@@ -6,6 +6,10 @@
       ansible.builtin.apt :
         name : openjdk-11-jdk
         state : present
+    -  name : add group 
+       ansible.builtin.group : 
+       name : tomcat
+       state : present    
     - name : user creation for tomcat
       ansible.builtin.user : 
         name : tomcat
