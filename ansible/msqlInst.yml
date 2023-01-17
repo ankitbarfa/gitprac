@@ -4,8 +4,8 @@
    tasks : 
     - name : Download mysql
       ansible.builtin.get_url : 
-        url : https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+        url : http://dev.mysql.com/get/Downloads/MySQL-5.0/MySQL-server-community-5.0.37-0.rhel4.i386.rpm/from/http://mirrors.dedipower.com/www.mysql.com/
         dest : /tmp/   
-        ignore_errors: yes
-        
+      
+
 
