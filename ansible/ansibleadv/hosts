@@ -1,1 +1,2 @@
+[local]
 localhost packages = '["git","tree","nano","net-tools"]'
