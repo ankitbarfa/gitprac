@@ -1,6 +1,6 @@
 - name : install utilities 
   become : yes 
-  host : all
+  hosts : all
   tasks : 
     - name : install utilities
       ansible.builtin.package:
