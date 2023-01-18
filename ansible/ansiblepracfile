@@ -80,7 +80,9 @@ command used setuping the ansible
 
 
    --------------------TOmcate Installtion-----------------
-   Setup your account befor tomcat installation 
+   Setup your account befor tomcat installation install java on the machine 
+   --jave installation : 
+   sudo apt install openjdk-11-jdk
 
-   
+   sudo useradd -m -U -d /opt/tomcat -s /bin/false tomcat
    
