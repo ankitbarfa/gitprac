@@ -2,7 +2,7 @@
   become : yes 
   host : all
   tasks : 
-   - name : install utilities
+    - name : install utilities
       ansible.builtin.package:
         name : "{{ item }}" 
         state : present 
