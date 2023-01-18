@@ -4,7 +4,7 @@
     - name : install utilities
       ansible.builtin.package:
         name : "{{ item }}"
-      become : yes  
         state : present 
+      become : yes  
       loop : "{{ packages }}"
         
