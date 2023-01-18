@@ -1,10 +1,10 @@
 - name : install utilities 
-  become : yes 
   hosts : all
   tasks : 
     - name : install utilities
       ansible.builtin.package:
-        name : "{{ item }}" 
+        name : "{{ item }}"
+      become : yes  
         state : present 
       loop : "{{ packages }}"
         
