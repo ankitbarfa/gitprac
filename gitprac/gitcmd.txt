@@ -4,3 +4,6 @@ removed line one
 added line two 
 
 line three added 
+
+line four added 
+
